@@ -25,7 +25,7 @@ define Package/$(PKG_NAME)
 	SUBMENU:=3. Applications
 	TITLE:=LuCI Support for tinyFecVPN
 	PKGARCH:=all
-
+	DEPENDS:=+tinyfecVPN
 endef
 
 define Package/$(PKG_NAME)/description
